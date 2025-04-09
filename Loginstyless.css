@@ -1,0 +1,110 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: black;
+      color: white;
+    }
+  }
+  
+  .container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    width: %;
+    max-width: 800px;
+    text-align: center;
+    margin: 50px auto;
+  }
+  
+  .banner {
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .nav {
+    display: flex;
+    background-color: #D40511;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: 500;
+    background-color: #D40511;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .nav a:hover {
+    background-color: #005bb5;
+    transform: scale(1.05);
+  }
+  
+  .form-input {
+    width: 90%;
+    max-width: 400px;
+    margin: 12px auto;
+    display: block;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+  }
+  
+  .button {
+    width: 90%;
+    max-width: 400px;
+    margin: 16px auto;
+    display: block;
+    padding: 12px;
+    background-color: #D40511;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #a3030d;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  /* Ajuste para pantallas pequeñas */
+  @media (max-width: 600px) {
+    .form-input,
+    .button {
+      width: 95%;
+      font-size: 0.95rem;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
